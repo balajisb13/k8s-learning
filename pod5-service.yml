@@ -10,4 +10,4 @@ spec:
      protocol: TCP
    selector:
      app: java
-   type:  NodePort
+   type: NodePort
