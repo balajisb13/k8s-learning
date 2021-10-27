@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: pod5
+  labels:
+    app: java
+spec:
+  containers:
+  - name: k8s-java
+    image: balajisb13/java
+    ports:
+    - name: java-port
+      containerPort: 3000
