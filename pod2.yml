@@ -5,8 +5,9 @@ metadata:
 spec:
   containers:
   - name: balaji-nginx
-    image: nginx
+    image: nginx:1.21.3
     ports:
-  - name: afakharany/watcher
-    image: afakharany/watcher
     - containerPort: 8080
+  - name: pod2
+    image: afakharany/watcher
+    
