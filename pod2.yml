@@ -5,7 +5,7 @@ metadata:
 spec:
   containers:
   - name: balaji-nginx
-    image: ngin
+    image: nginx
     ports:
   - name: afakharany/watcher
     image: afakharany/watcher
